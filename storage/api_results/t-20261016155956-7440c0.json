@@ -1,0 +1,17 @@
+{
+  "task_id": "t-20261016155956-7440c0",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_get_posts",
+    "test_example.py::test_get_post_by_id"
+  ],
+  "status": "failed",
+  "started_at": "2026-10-16T15:59:56.744385",
+  "finished_at": "2026-10-16T15:59:56.783993",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016155956-7440c0.json",
+  "triggered_by": "admin",
+  "logs": [
+    "C:\\Python315\\python.exe: No module named pytest"
+  ],
+  "return_code": 1
+}

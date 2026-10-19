@@ -1,0 +1,39 @@
+[
+  {
+    "id": "u001",
+    "username": "admin",
+    "password_hash": "$2b$12$dWu46L7P1vG4lLqxZsomAekJAVLFKF4AQIqFfSmzgjH3fNyzpaeie",
+    "role": "super_admin",
+    "created_at": "2026-10-16T15:56:26.905364",
+    "dept_id": "dept_qa",
+    "nickname": "系统总管理员",
+    "avatar": "gradient_slate"
+  },
+  {
+    "id": "u002",
+    "username": "fin_lead",
+    "nickname": "王主管 (金融研发)",
+    "password_hash": "$2b$12$dmy4Zvlg9SZ8TCTm7xz.weE/9W5mUHtecVMmid.4hMK76rfMDiLVK",
+    "role": "dept_admin",
+    "dept_id": "dept_fin",
+    "created_at": "2026-10-16T23:54:06.045784"
+  },
+  {
+    "id": "u003",
+    "username": "mall_tester",
+    "nickname": "李工 (电商测试)",
+    "password_hash": "$2b$12$K4CWh0uu2exuFxH3nQyvjeOCSB0CfKDbAhhNj8X1zYKXvtUjP6FwC",
+    "role": "tester",
+    "dept_id": "dept_mall",
+    "created_at": "2026-10-16T23:54:06.253515"
+  },
+  {
+    "id": "u004",
+    "username": "qa_viewer",
+    "nickname": "张工 (质量部观察员)",
+    "password_hash": "$2b$12$862UJuiAGvXVYM9AhEmEKuVL3qwp7Y0vrfyCQ8biN763nSmZjdXH6",
+    "role": "viewer",
+    "dept_id": "dept_qa",
+    "created_at": "2026-10-16T23:54:06.465161"
+  }
+]

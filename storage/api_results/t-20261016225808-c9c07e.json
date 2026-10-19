@@ -1,0 +1,16 @@
+{
+  "task_id": "t-20261016225808-c9c07e",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_api_request"
+  ],
+  "status": "failed",
+  "started_at": "2026-10-16T22:58:08.284622",
+  "finished_at": "2026-10-16T23:20:20.179586",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016225808-c9c07e.json",
+  "triggered_by": "admin",
+  "env": "staging",
+  "logs": [
+    "[智能自愈] 检测到任务执行超时（超过 300s），系统已自动终止并标记为 failed"
+  ]
+}

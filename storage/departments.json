@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dept_qa",
+    "code": "qa",
+    "name": "质量保障中心 (QA)",
+    "description": "负责整机集成测试、核心回归与发布前质量门禁",
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "dept_fin",
+    "code": "fin",
+    "name": "核心金融研发部",
+    "description": "负责清结算中台、支付网关、账户及风控系统",
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "dept_mall",
+    "code": "mall",
+    "name": "电商平台研发部",
+    "description": "负责商品中台、购物车交易、促销及订单履约",
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "dept_ops",
+    "code": "ops",
+    "name": "基础设施运维部",
+    "description": "负责微服务高可用、容器编排与集群观测监控",
+    "created_at": "2026-10-16T12:00:00"
+  }
+]

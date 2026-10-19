@@ -1,0 +1,31 @@
+{
+  "task_id": "t-20261016233947-d163ce",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_api_request2"
+  ],
+  "status": "failed",
+  "started_at": "2026-10-16T23:39:47.741154",
+  "finished_at": "2026-10-16T23:39:49.797578",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016233947-d163ce.json",
+  "triggered_by": "admin",
+  "env": "staging",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/api/test_example.py::test_api_request2 FAILED                  [100%]",
+    "",
+    "================================== FAILURES ===================================",
+    "______________________________ test_api_request2 ______________________________",
+    "testcases\\api\\test_example.py:79: in test_api_request2",
+    "    assert resp.status_code == 201, f\"期望状态码 201，实际返回 {resp.status_code}\"",
+    "E   AssertionError: 期望状态码 201，实际返回 404",
+    "E   assert 404 == 201",
+    "E    +  where 404 = <Response [404]>.status_code",
+    "=========================== short test summary info ===========================",
+    "FAILED testcases/api/test_example.py::test_api_request2 - AssertionError: 期...",
+    "============================== 1 failed in 1.27s =============================="
+  ],
+  "return_code": 1
+}

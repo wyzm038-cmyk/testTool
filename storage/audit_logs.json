@@ -1,0 +1,52 @@
+[
+  {
+    "id": "log_330b7c3ed1",
+    "operator": "admin",
+    "action": "修改个人资料/头像",
+    "module": "用户与权限",
+    "action_type": "update",
+    "target": "admin",
+    "details": "用户 [@admin] 更新了个人配置: 更换了个人头像",
+    "timestamp": "2026-10-17T12:08:26.043309"
+  },
+  {
+    "id": "log_0fde4242bc",
+    "operator": "admin",
+    "action": "修改个人资料/头像",
+    "module": "用户与权限",
+    "action_type": "update",
+    "target": "admin",
+    "details": "用户 [@admin] 更新了个人配置: 更换了个人头像",
+    "timestamp": "2026-10-17T10:46:53.189198"
+  },
+  {
+    "id": "log_d8be1e97fd",
+    "operator": "admin",
+    "action": "修改个人资料/头像",
+    "module": "用户与权限",
+    "action_type": "update",
+    "target": "admin",
+    "details": "用户 [@admin] 更新了个人配置: 更换了个人头像",
+    "timestamp": "2026-10-17T10:44:51.039088"
+  },
+  {
+    "id": "log_f6fca1dea2",
+    "operator": "admin",
+    "action": "修改个人资料/头像",
+    "module": "用户与权限",
+    "action_type": "update",
+    "target": "admin",
+    "details": "用户 [@admin] 更新了个人配置: 更换了个人头像",
+    "timestamp": "2026-10-17T10:38:55.788467"
+  },
+  {
+    "id": "log_e5bcf5ece8",
+    "operator": "admin",
+    "action": "一键清空审计日志",
+    "module": "系统运维",
+    "action_type": "clear",
+    "target": "全平台审计日志",
+    "details": "管理员 [admin] 执行了一键清空所有历史操作审计日志高危动作，旧记录已抹除重置",
+    "timestamp": "2026-10-17T10:03:57.345157"
+  }
+]

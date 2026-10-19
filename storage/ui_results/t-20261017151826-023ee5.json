@@ -1,0 +1,21 @@
+{
+  "task_id": "t-20261017151826-023ee5",
+  "module": "ui",
+  "cases": [
+    "test_qa_playground.py::test_01_basic_elements"
+  ],
+  "status": "success",
+  "started_at": "2026-10-17T15:18:26.232550",
+  "finished_at": "2026-10-17T15:18:35.435778",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017151826-023ee5.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/ui/test_qa_playground.py::test_01_basic_elements[chromium] PASSED [100%]",
+    "",
+    "============================== 1 passed in 7.97s =============================="
+  ],
+  "return_code": 0
+}

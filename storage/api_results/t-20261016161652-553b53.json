@@ -1,0 +1,23 @@
+{
+  "task_id": "t-20261016161652-553b53",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_get_posts",
+    "test_example.py::test_get_post_by_id"
+  ],
+  "status": "success",
+  "started_at": "2026-10-16T16:16:52.020032",
+  "finished_at": "2026-10-16T16:16:58.708117",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016161652-553b53.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 2 items",
+    "",
+    "testcases/api/test_example.py::test_get_posts PASSED                     [ 50%]",
+    "testcases/api/test_example.py::test_get_post_by_id PASSED                [100%]",
+    "",
+    "============================== 2 passed in 5.49s =============================="
+  ],
+  "return_code": 0
+}

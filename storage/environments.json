@@ -1,0 +1,76 @@
+[
+  {
+    "id": "env_dev",
+    "name": "开发联调环境 (DEV)",
+    "code": "dev",
+    "base_url": "https://dev-gateway.internal.net",
+    "description": "研发日常特性联调与单元/集成测试环境",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Env": "dev",
+      "Authorization": "Bearer dev_jwt_token_sample"
+    },
+    "variables": {
+      "GATEWAY_PORT": "8080",
+      "TIMEOUT_MS": "3000",
+      "MOCK_ENABLED": "true"
+    },
+    "is_default": false,
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "env_test",
+    "name": "集成测试环境 (TEST)",
+    "code": "test",
+    "base_url": "https://test-gateway.internal.net",
+    "description": "质量保障中心全链路集成回归环境（默认基准）",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Env": "test",
+      "Authorization": "Bearer qa_test_token_standard"
+    },
+    "variables": {
+      "GATEWAY_PORT": "8000",
+      "TIMEOUT_MS": "5000",
+      "MOCK_ENABLED": "false"
+    },
+    "is_default": true,
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "env_staging",
+    "name": "预发布灰度环境 (STAGING)",
+    "code": "staging",
+    "base_url": "https://staging-api.internal.net",
+    "description": "仿真生产数据与发布前准入最终演练环境",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Env": "staging",
+      "X-Canary": "always"
+    },
+    "variables": {
+      "TIMEOUT_MS": "8000",
+      "CACHE_TTL": "60"
+    },
+    "is_default": false,
+    "created_at": "2026-10-16T12:00:00"
+  },
+  {
+    "id": "env_prod",
+    "name": "生产巡检环境 (PROD)",
+    "code": "prod",
+    "base_url": "https://api.company.com",
+    "description": "生产拨测、健康探针与只读监控巡检环境（只读鉴权）",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Env": "prod",
+      "X-Health-Check": "true"
+    },
+    "variables": {
+      "READ_ONLY": "true",
+      "TIMEOUT_MS": "2000"
+    },
+    "is_default": false,
+    "created_at": "2026-10-16T12:00:00"
+  }
+]

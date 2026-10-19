@@ -1,0 +1,25 @@
+{
+  "task_id": "t-20261017143415-df5de6",
+  "module": "api",
+  "cases": [
+    "mall/test_order_api.py::test_mall_product_detail"
+  ],
+  "status": "success",
+  "started_at": "2026-10-17T14:34:15.093900",
+  "finished_at": "2026-10-17T14:34:23.849353",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261017143415-df5de6.json",
+  "triggered_by": "admin",
+  "env": "test",
+  "dept_id": "dept_qa",
+  "dept_name": "质量保障中心 (QA)",
+  "dept_code": "qa",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/api/mall/test_order_api.py::test_mall_product_detail PASSED    [100%]",
+    "",
+    "============================== 1 passed in 7.82s =============================="
+  ],
+  "return_code": 0
+}

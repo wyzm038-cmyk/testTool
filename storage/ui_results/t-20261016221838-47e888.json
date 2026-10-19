@@ -1,0 +1,34 @@
+{
+  "task_id": "t-20261016221838-47e888",
+  "module": "ui",
+  "cases": [
+    "test_example.py::test_baidu_search"
+  ],
+  "status": "failed",
+  "started_at": "2026-10-16T22:18:38.561089",
+  "finished_at": "2026-10-16T22:18:39.553210",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261016221838-47e888.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... ERROR: found no collectors for D:\\antigravity\\go\\testTool\\testcases\\ui\\test_example.py::test_baidu_search",
+    "",
+    "collected 0 items / 1 error",
+    "",
+    "=================================== ERRORS ====================================",
+    "________________ ERROR collecting testcases/ui/test_example.py ________________",
+    "ImportError while importing test module 'D:\\antigravity\\go\\testTool\\testcases\\ui\\test_example.py'.",
+    "Hint: make sure your test modules/packages have valid Python names.",
+    "Traceback:",
+    "C:\\Python315\\Lib\\importlib\\__init__.py:88: in import_module",
+    "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "testcases\\ui\\test_example.py:5: in <module>",
+    "    from playwright.sync_api import Page, expect",
+    "E   ModuleNotFoundError: No module named 'playwright'",
+    "=========================== short test summary info ===========================",
+    "ERROR testcases/ui/test_example.py",
+    "============================== 1 error in 0.17s ==============================="
+  ],
+  "return_code": 4
+}

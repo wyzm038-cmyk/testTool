@@ -1,0 +1,21 @@
+{
+  "task_id": "t-20261017143328-d0b1c9",
+  "module": "ui",
+  "cases": [
+    "test_example.py::test_bing_title"
+  ],
+  "status": "success",
+  "started_at": "2026-10-17T14:33:28.354876",
+  "finished_at": "2026-10-17T14:33:31.527245",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017143328-d0b1c9.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/ui/test_example.py::test_bing_title[chromium] PASSED           [100%]",
+    "",
+    "============================== 1 passed in 2.22s =============================="
+  ],
+  "return_code": 0
+}

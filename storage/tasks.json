@@ -1,0 +1,249 @@
+[
+  {
+    "task_id": "t-20261016155956-7440c0",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_get_posts",
+      "test_example.py::test_get_post_by_id"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T15:59:56.744385",
+    "finished_at": "2026-10-16T15:59:56.783993",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016155956-7440c0.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261016161652-553b53",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_get_posts",
+      "test_example.py::test_get_post_by_id"
+    ],
+    "status": "success",
+    "started_at": "2026-10-16T16:16:52.020032",
+    "finished_at": "2026-10-16T16:16:58.708117",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016161652-553b53.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261016175157-cd9830",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_baidu_search"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T17:51:57.902284",
+    "finished_at": "2026-10-16T17:51:59.147048",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261016175157-cd9830.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261016175218-bc7115",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_get_posts"
+    ],
+    "status": "success",
+    "started_at": "2026-10-16T17:52:18.971189",
+    "finished_at": "2026-10-16T17:52:22.516169",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016175218-bc7115.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016221838-47e888",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_baidu_search"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T22:18:38.561089",
+    "finished_at": "2026-10-16T22:18:39.553210",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261016221838-47e888.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261016221903-611c1c",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_get_posts"
+    ],
+    "status": "success",
+    "started_at": "2026-10-16T22:19:03.089432",
+    "finished_at": "2026-10-16T22:19:06.291278",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016221903-611c1c.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016222012-37d22a",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_get_posts",
+      "test_example.py::test_get_post_by_id",
+      "test_example.py::test_create_post",
+      "test_example.py::test_get_nonexistent_post"
+    ],
+    "status": "success",
+    "started_at": "2026-10-16T22:20:12.080537",
+    "finished_at": "2026-10-16T22:20:17.773810",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016222012-37d22a.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016225808-c9c07e",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_api_request"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T22:58:08.284622",
+    "finished_at": "2026-10-16T23:20:20.179586",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016225808-c9c07e.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016230328-097186",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_api_request33"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T23:03:28.771866",
+    "finished_at": "2026-10-16T23:20:20.179586",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016230328-097186.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016231205-2264fa",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_api_request33"
+    ],
+    "status": "success",
+    "started_at": "2026-10-16T23:12:05.342303",
+    "finished_at": "2026-10-16T23:12:08.139517",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016231205-2264fa.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261016233947-d163ce",
+    "module": "api",
+    "cases": [
+      "test_example.py::test_api_request2"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-16T23:39:47.741154",
+    "finished_at": "2026-10-16T23:39:49.797578",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016233947-d163ce.json",
+    "triggered_by": "admin",
+    "env": "staging"
+  },
+  {
+    "task_id": "t-20261017133340-cad426",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_baidu_search"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-17T13:33:40.839090",
+    "finished_at": "2026-10-17T13:33:42.187060",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017133340-cad426.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017134800-c5f8ac",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_baidu_title"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T13:48:00.327708",
+    "finished_at": "2026-10-17T13:48:02.862411",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017134800-c5f8ac.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017141610-171780",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_baidu_title"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T14:16:10.799884",
+    "finished_at": "2026-10-17T14:16:14.812667",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017141610-171780.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017143328-d0b1c9",
+    "module": "ui",
+    "cases": [
+      "test_example.py::test_bing_title"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T14:33:28.354876",
+    "finished_at": "2026-10-17T14:33:31.527245",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017143328-d0b1c9.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017143415-df5de6",
+    "module": "api",
+    "cases": [
+      "mall/test_order_api.py::test_mall_product_detail"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T14:34:15.093900",
+    "finished_at": "2026-10-17T14:34:23.849353",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261017143415-df5de6.json",
+    "triggered_by": "admin",
+    "env": "test",
+    "dept_id": "dept_qa",
+    "dept_name": "质量保障中心 (QA)",
+    "dept_code": "qa"
+  },
+  {
+    "task_id": "t-20261017151826-023ee5",
+    "module": "ui",
+    "cases": [
+      "test_qa_playground.py::test_01_basic_elements"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T15:18:26.232550",
+    "finished_at": "2026-10-17T15:18:35.435778",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017151826-023ee5.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017151847-c076d1",
+    "module": "ui",
+    "cases": [
+      "test_qa_playground.py::test_03_tables_and_lists"
+    ],
+    "status": "success",
+    "started_at": "2026-10-17T15:18:47.659152",
+    "finished_at": "2026-10-17T15:18:53.999011",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017151847-c076d1.json",
+    "triggered_by": "admin"
+  },
+  {
+    "task_id": "t-20261017171814-c8b05c",
+    "module": "perf",
+    "cases": [
+      "api_gateway/test_posts_benchmark.js"
+    ],
+    "status": "failed",
+    "started_at": "2026-10-17T17:18:14.800406",
+    "finished_at": "2026-10-17T17:18:27.273215",
+    "result_file": "D:\\antigravity\\go\\testTool\\storage\\perf_results\\t-20261017171814-c8b05c.json",
+    "triggered_by": "admin",
+    "script": "api_gateway/test_posts_benchmark.js",
+    "vus": 20,
+    "duration": "10s"
+  }
+]

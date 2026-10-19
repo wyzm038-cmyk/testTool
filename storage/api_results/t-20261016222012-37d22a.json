@@ -1,0 +1,28 @@
+{
+  "task_id": "t-20261016222012-37d22a",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_get_posts",
+    "test_example.py::test_get_post_by_id",
+    "test_example.py::test_create_post",
+    "test_example.py::test_get_nonexistent_post"
+  ],
+  "status": "success",
+  "started_at": "2026-10-16T22:20:12.080537",
+  "finished_at": "2026-10-16T22:20:17.773810",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016222012-37d22a.json",
+  "triggered_by": "admin",
+  "env": "staging",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 4 items",
+    "",
+    "testcases/api/test_example.py::test_get_posts PASSED                     [ 25%]",
+    "testcases/api/test_example.py::test_get_post_by_id PASSED                [ 50%]",
+    "testcases/api/test_example.py::test_create_post PASSED                   [ 75%]",
+    "testcases/api/test_example.py::test_get_nonexistent_post PASSED          [100%]",
+    "",
+    "============================== 4 passed in 4.91s =============================="
+  ],
+  "return_code": 0
+}

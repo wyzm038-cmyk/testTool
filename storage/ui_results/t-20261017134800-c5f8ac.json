@@ -1,0 +1,21 @@
+{
+  "task_id": "t-20261017134800-c5f8ac",
+  "module": "ui",
+  "cases": [
+    "test_example.py::test_baidu_title"
+  ],
+  "status": "success",
+  "started_at": "2026-10-17T13:48:00.327708",
+  "finished_at": "2026-10-17T13:48:02.862411",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017134800-c5f8ac.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/ui/test_example.py::test_baidu_title[chromium] PASSED          [100%]",
+    "",
+    "============================== 1 passed in 1.51s =============================="
+  ],
+  "return_code": 0
+}

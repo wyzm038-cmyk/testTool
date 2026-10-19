@@ -1,0 +1,21 @@
+{
+  "task_id": "t-20261017151847-c076d1",
+  "module": "ui",
+  "cases": [
+    "test_qa_playground.py::test_03_tables_and_lists"
+  ],
+  "status": "success",
+  "started_at": "2026-10-17T15:18:47.659152",
+  "finished_at": "2026-10-17T15:18:53.999011",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\ui_results\\t-20261017151847-c076d1.json",
+  "triggered_by": "admin",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/ui/test_qa_playground.py::test_03_tables_and_lists[chromium] PASSED [100%]",
+    "",
+    "============================== 1 passed in 5.43s =============================="
+  ],
+  "return_code": 0
+}

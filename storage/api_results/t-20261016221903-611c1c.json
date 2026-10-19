@@ -1,0 +1,22 @@
+{
+  "task_id": "t-20261016221903-611c1c",
+  "module": "api",
+  "cases": [
+    "test_example.py::test_get_posts"
+  ],
+  "status": "success",
+  "started_at": "2026-10-16T22:19:03.089432",
+  "finished_at": "2026-10-16T22:19:06.291278",
+  "result_file": "D:\\antigravity\\go\\testTool\\storage\\api_results\\t-20261016221903-611c1c.json",
+  "triggered_by": "admin",
+  "env": "staging",
+  "logs": [
+    "============================= test session starts =============================",
+    "collecting ... collected 1 item",
+    "",
+    "testcases/api/test_example.py::test_get_posts PASSED                     [100%]",
+    "",
+    "============================== 1 passed in 2.45s =============================="
+  ],
+  "return_code": 0
+}
